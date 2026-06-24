@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Badge } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
 import { getAllPosts, getPostBySlug } from "@/lib/posts";
 
 type PostPageProps = {
@@ -40,26 +42,29 @@ export default async function PostPage({ params }: PostPageProps) {
   }
 
   return (
-    <article className="article">
-      <Link className="back-link" href="/posts">
+    <article className="max-w-3xl">
+      <Link className={buttonVariants({ variant: "link", className: "mb-8" })} href="/posts">
         返回全部文章
       </Link>
-      <header className="article-header">
-        <div className="post-meta">
+      <header className="border-b pb-8">
+        <div className="mb-5 flex flex-wrap gap-2 text-sm font-semibold text-muted-foreground">
           <time dateTime={post.date}>{formatDate(post.date)}</time>
+          <span>/</span>
           <span>{post.readingTime}</span>
         </div>
-        <h1>{post.title}</h1>
-        <p>{post.description}</p>
-        <div className="tag-list" aria-label="标签">
+        <h1 className="text-5xl font-black leading-[0.96] tracking-[-0.075em] text-foreground sm:text-6xl lg:text-7xl">
+          {post.title}
+        </h1>
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">{post.description}</p>
+        <div className="mt-6 flex flex-wrap gap-2" aria-label="标签">
           {post.tags.map((tag) => (
-            <span className="tag" key={tag}>
+            <Badge key={tag} variant="secondary">
               {tag}
-            </span>
+            </Badge>
           ))}
         </div>
       </header>
-      <div className="article-body" dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className="article-body pt-8" dangerouslySetInnerHTML={{ __html: post.html }} />
     </article>
   );
 }
