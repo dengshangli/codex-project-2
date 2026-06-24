@@ -6,7 +6,11 @@ describe("博客文章加载", () => {
     const posts = getAllPosts();
     expect(posts.map((post) => post.slug)).toEqual([
       "ai-assisted-coding-workflow",
+      "small-feedback-loops",
+      "reviewing-small-changes",
+      "tooling-that-stays-boring",
       "designing-with-constraints",
+      "keeping-project-notes-useful",
       "building-a-sustainable-writing-rhythm",
       "hello-nextjs-blog",
     ]);
