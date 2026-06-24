@@ -1,6 +1,32 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ThemeToggle } from "@/components/theme-toggle";
 import "./globals.css";
+
+const themeInitScript = `
+  (function() {
+    var storageKey = "codex-project-2-theme";
+    var storedTheme = null;
+    try {
+      var value = window.localStorage.getItem(storageKey);
+      if (value === "light" || value === "dark") {
+        storedTheme = value;
+      }
+    } catch (error) {
+      // Treat blocked storage as no saved choice.
+    }
+    var prefersDark = false;
+    try {
+      if (typeof window.matchMedia === "function") {
+        prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      }
+    } catch (error) {
+      // Default to light if matchMedia is unavailable.
+    }
+    var theme = storedTheme !== null ? storedTheme : prefersDark ? "dark" : "light";
+    document.documentElement.classList.toggle("dark", theme === "dark");
+  })();
+`;
 
 export const metadata: Metadata = {
   title: {
@@ -16,8 +42,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh-CN" suppressHydrationWarning>
       <body>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <div className="mx-auto flex min-h-screen w-[calc(100%-2rem)] max-w-6xl flex-col">
           <header className="flex flex-col gap-4 py-7 sm:flex-row sm:items-center sm:justify-between">
             <Link
@@ -27,14 +54,17 @@ export default function RootLayout({
             >
               邓的笔记
             </Link>
-            <nav className="flex gap-5 text-sm font-medium text-muted-foreground" aria-label="主导航">
-              <Link className="transition-colors hover:text-primary" href="/">
-                首页
-              </Link>
-              <Link className="transition-colors hover:text-primary" href="/posts">
-                文章
-              </Link>
-            </nav>
+            <div className="flex items-center gap-4">
+              <nav className="flex gap-5 text-sm font-medium text-muted-foreground" aria-label="主导航">
+                <Link className="transition-colors hover:text-primary" href="/">
+                  首页
+                </Link>
+                <Link className="transition-colors hover:text-primary" href="/posts">
+                  文章
+                </Link>
+              </nav>
+              <ThemeToggle />
+            </div>
           </header>
           <main className="flex-1 py-10 sm:py-14 lg:py-16">{children}</main>
           <footer className="border-t py-7">

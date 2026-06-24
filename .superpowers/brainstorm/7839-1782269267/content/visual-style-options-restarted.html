@@ -1,0 +1,206 @@
+<h2>想把博客换成哪种视觉气质？</h2>
+<p class="subtitle">下面是 3 个方向，每个都预留暗黑模式。你可以点击最接近你想要的一个，也可以告诉我想混合哪些元素。</p>
+
+<style>
+  .style-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+  .style-card {
+    cursor: pointer;
+  }
+  .mini-site {
+    min-height: 300px;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 1px solid rgba(120, 113, 108, 0.28);
+    box-shadow: 0 18px 42px rgba(24, 24, 27, 0.12);
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  }
+  .mini-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 300px;
+  }
+  .mini-pane {
+    padding: 18px;
+  }
+  .mini-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    opacity: 0.76;
+  }
+  .mini-kicker {
+    margin-top: 38px;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .mini-title {
+    margin-top: 12px;
+    font-size: 24px;
+    line-height: 0.92;
+    letter-spacing: -0.08em;
+    font-weight: 950;
+  }
+  .mini-copy {
+    margin-top: 14px;
+    font-size: 11px;
+    line-height: 1.7;
+    opacity: 0.72;
+  }
+  .mini-tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 18px;
+  }
+  .mini-tag {
+    border-radius: 999px;
+    padding: 4px 8px;
+    font-size: 9px;
+    font-weight: 800;
+  }
+  .editorial-light {
+    background: radial-gradient(circle at 20% 0%, rgba(180, 83, 9, 0.18), transparent 42%), #fbf1df;
+    color: #24170f;
+  }
+  .editorial-dark {
+    background: radial-gradient(circle at 80% 0%, rgba(217, 119, 6, 0.28), transparent 44%), #17120d;
+    color: #fff1d8;
+  }
+  .editorial-light .mini-tag { background: rgba(120, 53, 15, 0.12); color: #7c2d12; }
+  .editorial-dark .mini-tag { background: rgba(251, 191, 36, 0.13); color: #fbbf24; }
+
+  .minimal-light {
+    background: linear-gradient(135deg, #f8fafc, #eef2ff);
+    color: #0f172a;
+  }
+  .minimal-dark {
+    background: linear-gradient(135deg, #020617, #111827);
+    color: #e5e7eb;
+  }
+  .minimal-light .mini-title, .minimal-dark .mini-title {
+    letter-spacing: -0.055em;
+  }
+  .minimal-light .mini-tag { background: rgba(79, 70, 229, 0.1); color: #4338ca; }
+  .minimal-dark .mini-tag { background: rgba(129, 140, 248, 0.14); color: #a5b4fc; }
+
+  .terminal-light {
+    background:
+      linear-gradient(90deg, rgba(20, 184, 166, 0.12) 1px, transparent 1px),
+      linear-gradient(rgba(20, 184, 166, 0.12) 1px, transparent 1px),
+      #f5fffb;
+    background-size: 18px 18px;
+    color: #062f2c;
+  }
+  .terminal-dark {
+    background:
+      linear-gradient(90deg, rgba(45, 212, 191, 0.13) 1px, transparent 1px),
+      linear-gradient(rgba(45, 212, 191, 0.13) 1px, transparent 1px),
+      #031211;
+    background-size: 18px 18px;
+    color: #ccfbf1;
+  }
+  .terminal-light .mini-title, .terminal-dark .mini-title {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: -0.045em;
+  }
+  .terminal-light .mini-tag { background: rgba(13, 148, 136, 0.13); color: #0f766e; }
+  .terminal-dark .mini-tag { background: rgba(45, 212, 191, 0.14); color: #5eead4; }
+
+  @media (max-width: 980px) {
+    .style-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="style-grid cards">
+  <div class="card style-card" data-choice="editorial" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mini-site">
+        <div class="mini-row">
+          <div class="mini-pane editorial-light">
+            <div class="mini-nav"><span>邓的笔记</span><span>文章</span></div>
+            <div class="mini-kicker">Essay</div>
+            <div class="mini-title">把工程写得像一份长期杂志</div>
+            <div class="mini-copy">暖色纸张、强标题、宽松段落，适合沉浸阅读。</div>
+            <div class="mini-tag-row"><span class="mini-tag">Design</span><span class="mini-tag">Notes</span></div>
+          </div>
+          <div class="mini-pane editorial-dark">
+            <div class="mini-nav"><span>Dark</span><span>Mode</span></div>
+            <div class="mini-kicker">Reading</div>
+            <div class="mini-title">夜间像低照度阅读室</div>
+            <div class="mini-copy">保留温度，但降低眩光，文章页更稳。</div>
+            <div class="mini-tag-row"><span class="mini-tag">Warm</span><span class="mini-tag">Calm</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. 编辑部 / 独立杂志</h3>
+      <p>延续当前暖色基础，但更成熟：大标题、纸张质感、精致分隔和阅读优先。</p>
+    </div>
+  </div>
+
+  <div class="card style-card" data-choice="minimal" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mini-site">
+        <div class="mini-row">
+          <div class="mini-pane minimal-light">
+            <div class="mini-nav"><span>Notes</span><span>Index</span></div>
+            <div class="mini-kicker">System</div>
+            <div class="mini-title">一个更清爽的工程笔记库</div>
+            <div class="mini-copy">更多留白、卡片更轻、层级更干净，像产品文档和作品集之间。</div>
+            <div class="mini-tag-row"><span class="mini-tag">Clean</span><span class="mini-tag">Focus</span></div>
+          </div>
+          <div class="mini-pane minimal-dark">
+            <div class="mini-nav"><span>Dark</span><span>Mode</span></div>
+            <div class="mini-kicker">Library</div>
+            <div class="mini-title">暗色下更像安静资料库</div>
+            <div class="mini-copy">蓝紫强调色，适合技术博客和项目索引。</div>
+            <div class="mini-tag-row"><span class="mini-tag">Sharp</span><span class="mini-tag">Modern</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. 极简作品集 / 技术文档</h3>
+      <p>更现代、更克制，降低装饰感，把搜索、归档和文章卡片做得更像产品界面。</p>
+    </div>
+  </div>
+
+  <div class="card style-card" data-choice="terminal" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mini-site">
+        <div class="mini-row">
+          <div class="mini-pane terminal-light">
+            <div class="mini-nav"><span>~/blog</span><span>run</span></div>
+            <div class="mini-kicker">Log</div>
+            <div class="mini-title">工程现场日志</div>
+            <div class="mini-copy">网格背景、单色高亮、代码感更强，个性最鲜明。</div>
+            <div class="mini-tag-row"><span class="mini-tag">CLI</span><span class="mini-tag">Build</span></div>
+          </div>
+          <div class="mini-pane terminal-dark">
+            <div class="mini-nav"><span>dark</span><span>active</span></div>
+            <div class="mini-kicker">Trace</div>
+            <div class="mini-title">夜间像调试台</div>
+            <div class="mini-copy">暗色模式最自然，但长文需要控制对比度。</div>
+            <div class="mini-tag-row"><span class="mini-tag">Neon</span><span class="mini-tag">Grid</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. 终端 / 技术实验室</h3>
+      <p>更有记忆点：网格、等宽标题和青绿色高亮，适合强调工程个性。</p>
+    </div>
+  </div>
+</div>

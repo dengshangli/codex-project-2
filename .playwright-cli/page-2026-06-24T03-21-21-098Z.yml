@@ -1,0 +1,131 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "邓的笔记首页" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: 邓的笔记
+      - generic [ref=e5]:
+        - navigation "主导航" [ref=e6]:
+          - link "首页" [ref=e7] [cursor=pointer]:
+            - /url: /
+          - link "文章" [ref=e8] [cursor=pointer]:
+            - /url: /posts
+        - button "切换到暗色模式" [ref=e9]: 暗色
+    - main [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - paragraph [ref=e13]: 归档
+          - heading "全部文章" [level=1] [ref=e14]
+          - paragraph [ref=e15]: 关于产品工程、设计约束，以及可持续技术工作的文章与笔记。
+        - generic [ref=e17]:
+          - generic [ref=e18]: 搜索文章
+          - generic [ref=e19]:
+            - searchbox "搜索文章" [ref=e20]
+            - button "搜索" [ref=e21]
+          - paragraph [ref=e22]: 共 8 篇文章
+        - region "全部博客文章" [ref=e23]:
+          - article [ref=e24]:
+            - generic [ref=e25]:
+              - generic [ref=e26]:
+                - generic [ref=e27]:
+                  - time [ref=e28]: 2026年6月24日
+                  - generic [ref=e29]: /
+                  - generic [ref=e30]: 1 分钟阅读
+                - heading "把 AI 放进编程工作流" [level=3] [ref=e31]:
+                  - link "把 AI 放进编程工作流" [ref=e32] [cursor=pointer]:
+                    - /url: /posts/ai-assisted-coding-workflow
+              - generic [ref=e33]:
+                - paragraph [ref=e34]: 让 AI 辅助编程保持可靠的关键，是清晰边界、短反馈循环和持续验证。
+                - generic "标签" [ref=e35]:
+                  - generic [ref=e36]: AI
+                  - generic [ref=e37]: 工程
+                  - generic [ref=e38]: 工作流
+          - article [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e42]:
+                  - time [ref=e43]: 2026年6月23日
+                  - generic [ref=e44]: /
+                  - generic [ref=e45]: 1 分钟阅读
+                - heading "让反馈循环变小" [level=3] [ref=e46]:
+                  - link "让反馈循环变小" [ref=e47] [cursor=pointer]:
+                    - /url: /posts/small-feedback-loops
+              - generic [ref=e48]:
+                - paragraph [ref=e49]: 越早看到结果，越容易把软件改动保持在可理解的范围内。
+                - generic "标签" [ref=e50]:
+                  - generic [ref=e51]: 工程
+                  - generic [ref=e52]: 测试
+                  - generic [ref=e53]: 反馈
+          - article [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - time [ref=e58]: 2026年6月22日
+                  - generic [ref=e59]: /
+                  - generic [ref=e60]: 1 分钟阅读
+                - heading "审查更小的变更" [level=3] [ref=e61]:
+                  - link "审查更小的变更" [ref=e62] [cursor=pointer]:
+                    - /url: /posts/reviewing-small-changes
+              - generic [ref=e63]:
+                - paragraph [ref=e64]: 小批量代码审查让讨论更聚焦，也让风险更容易被看见。
+                - generic "标签" [ref=e65]:
+                  - generic [ref=e66]: 协作
+                  - generic [ref=e67]: 工程
+                  - generic [ref=e68]: 代码审查
+          - article [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - generic [ref=e72]:
+                  - time [ref=e73]: 2026年6月18日
+                  - generic [ref=e74]: /
+                  - generic [ref=e75]: 1 分钟阅读
+                - heading "保持工具链无聊" [level=3] [ref=e76]:
+                  - link "保持工具链无聊" [ref=e77] [cursor=pointer]:
+                    - /url: /posts/tooling-that-stays-boring
+              - generic [ref=e78]:
+                - paragraph [ref=e79]: 可靠的工具链不必显眼，它只需要在重复工作里稳定减少摩擦。
+                - generic "标签" [ref=e80]:
+                  - generic [ref=e81]: 工具
+                  - generic [ref=e82]: 工程
+                  - generic [ref=e83]: 自动化
+          - article [ref=e84]:
+            - generic [ref=e85]:
+              - generic [ref=e86]:
+                - generic [ref=e87]:
+                  - time [ref=e88]: 2026年6月12日
+                  - generic [ref=e89]: /
+                  - generic [ref=e90]: 1 分钟阅读
+                - heading "带着约束做设计" [level=3] [ref=e91]:
+                  - link "带着约束做设计" [ref=e92] [cursor=pointer]:
+                    - /url: /posts/designing-with-constraints
+              - generic [ref=e93]:
+                - paragraph [ref=e94]: 为什么更小的边界和明确的取舍，常常能带来更好的软件。
+                - generic "标签" [ref=e95]:
+                  - generic [ref=e96]: 设计
+                  - generic [ref=e97]: 工程
+                  - generic [ref=e98]: 系统
+          - article [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - time [ref=e103]: 2026年6月5日
+                  - generic [ref=e104]: /
+                  - generic [ref=e105]: 1 分钟阅读
+                - heading "让项目笔记保持有用" [level=3] [ref=e106]:
+                  - link "让项目笔记保持有用" [ref=e107] [cursor=pointer]:
+                    - /url: /posts/keeping-project-notes-useful
+              - generic [ref=e108]:
+                - paragraph [ref=e109]: 项目笔记的价值不在于完整记录一切，而在于留下未来能复用的判断。
+                - generic "标签" [ref=e110]:
+                  - generic [ref=e111]: 写作
+                  - generic [ref=e112]: 流程
+                  - generic [ref=e113]: 项目
+        - navigation "文章分页" [ref=e114]:
+          - generic [ref=e115]: 上一页
+          - generic [ref=e116]: 第 1 / 2 页
+          - link "下一页" [ref=e117] [cursor=pointer]:
+            - /url: /posts?page=2
+    - contentinfo [ref=e118]:
+      - paragraph [ref=e119]: 使用 Next.js 与 Markdown 构建，服务于长期、稳定的写作。
+  - button "Open Next.js Dev Tools" [ref=e125] [cursor=pointer]:
+    - img [ref=e126]
