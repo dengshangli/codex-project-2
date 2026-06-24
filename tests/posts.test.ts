@@ -5,6 +5,7 @@ describe("博客文章加载", () => {
   it("按时间倒序加载文章", () => {
     const posts = getAllPosts();
     expect(posts.map((post) => post.slug)).toEqual([
+      "ai-assisted-coding-workflow",
       "designing-with-constraints",
       "building-a-sustainable-writing-rhythm",
       "hello-nextjs-blog",
