@@ -1,0 +1,310 @@
+{
+  "projectRoot": "/Users/dengshangli/Documents/codex-project-2",
+  "files": [
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-18-30-551Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-18-53-814Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-19-43-839Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-21-21-098Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-21-28-116Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-22-51-206Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-30-239Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-37-964Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-48-220Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-55-057Z.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".superpowers/brainstorm/.last-port",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/.last-token",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/content/visual-style-options-restarted.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/state/server-info",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/state/server-instance-id",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/state/server.pid",
+      "language": "pid",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/content/visual-style-options.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/state/server-instance-id",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/state/server-stopped",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/state/server.pid",
+      "language": "pid",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/globals.css",
+      "language": "css",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "app/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/not-found.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/posts/[slug]/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/posts/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "components.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "components/theme-toggle.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/card.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/input.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "content/posts/ai-assisted-coding-workflow.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/building-a-sustainable-writing-rhythm.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/designing-with-constraints.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/hello-nextjs-blog.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/keeping-project-notes-useful.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/reviewing-small-changes.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/small-feedback-loops.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/tooling-that-stays-boring.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-23-nextjs-personal-blog.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-24-minimal-theme-dark-mode.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-nextjs-personal-blog-design.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-24-minimal-theme-dark-mode-design.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "lib/post-archive.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "lib/posts.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "lib/theme.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "lib/utils.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "next-env.d.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/post-archive.test.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/posts.test.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/theme.test.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "tsconfig.tsbuildinfo",
+      "language": "tsbuildinfo",
+      "fileCategory": "code"
+    },
+    {
+      "path": "vitest.config.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "projectRoot": "/Users/dengshangli/Documents/codex-project-2",
+  "batchFiles": [
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-18-30-551Z.yml",
+      "language": "yaml",
+      "sizeLines": 89,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-18-53-814Z.yml",
+      "language": "yaml",
+      "sizeLines": 91,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-19-43-839Z.yml",
+      "language": "yaml",
+      "sizeLines": 91,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-21-21-098Z.yml",
+      "language": "yaml",
+      "sizeLines": 130,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-21-28-116Z.yml",
+      "language": "yaml",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-22-51-206Z.yml",
+      "language": "yaml",
+      "sizeLines": 90,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-30-239Z.yml",
+      "language": "yaml",
+      "sizeLines": 130,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-37-964Z.yml",
+      "language": "yaml",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-48-220Z.yml",
+      "language": "yaml",
+      "sizeLines": 130,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-55-057Z.yml",
+      "language": "yaml",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    ".playwright-cli/page-2026-06-24T03-18-30-551Z.yml": [],
+    ".playwright-cli/page-2026-06-24T03-18-53-814Z.yml": [],
+    ".playwright-cli/page-2026-06-24T03-19-43-839Z.yml": [],
+    ".playwright-cli/page-2026-06-24T03-21-21-098Z.yml": [],
+    ".playwright-cli/page-2026-06-24T03-21-28-116Z.yml": [],
+    ".playwright-cli/page-2026-06-24T03-22-51-206Z.yml": [],
+    ".playwright-cli/page-2026-06-24T03-23-30-239Z.yml": [],
+    ".playwright-cli/page-2026-06-24T03-23-37-964Z.yml": [],
+    ".playwright-cli/page-2026-06-24T03-23-48-220Z.yml": [],
+    ".playwright-cli/page-2026-06-24T03-23-55-057Z.yml": []
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/posts/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "summary": "渲染文章归档页，包含分页、搜索或文章列表交互。",
+      "tags": [
+        "typescript",
+        "next-app",
+        "project-file"
+      ],
+      "filePath": "app/posts/page.tsx",
+      "language": "typescript",
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/posts/page.tsx:PostsPage",
+      "type": "function",
+      "name": "PostsPage",
+      "summary": "函数 PostsPage 实现 page.tsx 中的主要逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "project-logic"
+      ],
+      "filePath": "app/posts/page.tsx",
+      "lineRange": [
+        23,
+        140
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/posts/page.tsx:PaginationLink",
+      "type": "function",
+      "name": "PaginationLink",
+      "summary": "函数 PaginationLink 实现 page.tsx 中的主要逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "project-logic"
+      ],
+      "filePath": "app/posts/page.tsx",
+      "lineRange": [
+        142,
+        164
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/posts/page.tsx:buildArchiveHref",
+      "type": "function",
+      "name": "buildArchiveHref",
+      "summary": "函数 buildArchiveHref 实现 page.tsx 中的主要逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "project-logic"
+      ],
+      "filePath": "app/posts/page.tsx",
+      "lineRange": [
+        166,
+        180
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/post-archive.ts",
+      "type": "file",
+      "name": "post-archive.ts",
+      "summary": "封装项目共享逻辑，供页面、组件和测试复用。",
+      "tags": [
+        "typescript",
+        "library",
+        "project-file"
+      ],
+      "filePath": "lib/post-archive.ts",
+      "language": "typescript",
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/post-archive.ts:buildPostArchive",
+      "type": "function",
+      "name": "buildPostArchive",
+      "summary": "函数 buildPostArchive 实现 post-archive.ts 中的主要逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "project-logic"
+      ],
+      "filePath": "lib/post-archive.ts",
+      "lineRange": [
+        18,
+        33
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/posts.ts",
+      "type": "file",
+      "name": "posts.ts",
+      "summary": "封装项目共享逻辑，供页面、组件和测试复用。",
+      "tags": [
+        "typescript",
+        "library",
+        "project-file"
+      ],
+      "filePath": "lib/posts.ts",
+      "language": "typescript",
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/posts.ts:getAllPosts",
+      "type": "function",
+      "name": "getAllPosts",
+      "summary": "函数 getAllPosts 实现 posts.ts 中的主要逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "project-logic"
+      ],
+      "filePath": "lib/posts.ts",
+      "lineRange": [
+        33,
+        45
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/posts.ts:getPostBySlug",
+      "type": "function",
+      "name": "getPostBySlug",
+      "summary": "函数 getPostBySlug 实现 posts.ts 中的主要逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "project-logic"
+      ],
+      "filePath": "lib/posts.ts",
+      "lineRange": [
+        47,
+        64
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/posts.ts:parseFrontmatter",
+      "type": "function",
+      "name": "parseFrontmatter",
+      "summary": "函数 parseFrontmatter 实现 posts.ts 中的主要逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "project-logic"
+      ],
+      "filePath": "lib/posts.ts",
+      "lineRange": [
+        83,
+        100
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/post-archive.test.ts",
+      "type": "file",
+      "name": "post-archive.test.ts",
+      "summary": "覆盖项目核心工具函数和内容处理逻辑的自动化测试。",
+      "tags": [
+        "typescript",
+        "test",
+        "project-file"
+      ],
+      "filePath": "tests/post-archive.test.ts",
+      "language": "typescript",
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tests/post-archive.test.ts:createPost",
+      "type": "function",
+      "name": "createPost",
+      "summary": "函数 createPost 实现 post-archive.test.ts 中的主要逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "project-logic"
+      ],
+      "filePath": "tests/post-archive.test.ts",
+      "lineRange": [
+        42,
+        51
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/posts.test.ts",
+      "type": "file",
+      "name": "posts.test.ts",
+      "summary": "覆盖项目核心工具函数和内容处理逻辑的自动化测试。",
+      "tags": [
+        "typescript",
+        "test",
+        "project-file"
+      ],
+      "filePath": "tests/posts.test.ts",
+      "language": "typescript",
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "file:components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "file:components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "file:components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "file:components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "file:lib/post-archive.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "file:lib/posts.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "function:app/posts/page.tsx:PostsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "function:app/posts/page.tsx:PostsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "function:app/posts/page.tsx:PaginationLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/posts/page.tsx",
+      "target": "function:app/posts/page.tsx:buildArchiveHref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/post-archive.ts",
+      "target": "file:lib/posts.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/post-archive.ts",
+      "target": "function:lib/post-archive.ts:buildPostArchive",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/post-archive.ts",
+      "target": "function:lib/post-archive.ts:buildPostArchive",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/posts.ts",
+      "target": "function:lib/posts.ts:getAllPosts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/posts.ts",
+      "target": "function:lib/posts.ts:getAllPosts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/posts.ts",
+      "target": "function:lib/posts.ts:getPostBySlug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/posts.ts",
+      "target": "function:lib/posts.ts:getPostBySlug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/posts.ts",
+      "target": "function:lib/posts.ts:parseFrontmatter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tests/post-archive.test.ts",
+      "target": "file:lib/post-archive.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/post-archive.test.ts",
+      "target": "file:lib/posts.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/post-archive.ts",
+      "target": "file:tests/post-archive.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/posts.ts",
+      "target": "file:tests/post-archive.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tests/post-archive.test.ts",
+      "target": "function:tests/post-archive.test.ts:createPost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tests/posts.test.ts",
+      "target": "file:lib/posts.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/posts.ts",
+      "target": "file:tests/posts.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "scriptCompleted": true,
+  "files": [
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-18-30-551Z.yml",
+      "language": "yaml",
+      "sizeLines": 89,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-18-53-814Z.yml",
+      "language": "yaml",
+      "sizeLines": 91,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-19-43-839Z.yml",
+      "language": "yaml",
+      "sizeLines": 91,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-21-21-098Z.yml",
+      "language": "yaml",
+      "sizeLines": 130,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-21-28-116Z.yml",
+      "language": "yaml",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-22-51-206Z.yml",
+      "language": "yaml",
+      "sizeLines": 90,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-30-239Z.yml",
+      "language": "yaml",
+      "sizeLines": 130,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-37-964Z.yml",
+      "language": "yaml",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-48-220Z.yml",
+      "language": "yaml",
+      "sizeLines": 130,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".playwright-cli/page-2026-06-24T03-23-55-057Z.yml",
+      "language": "yaml",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".superpowers/brainstorm/.last-port",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/.last-token",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/content/visual-style-options-restarted.html",
+      "language": "html",
+      "sizeLines": 206,
+      "fileCategory": "markup"
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/state/server-info",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/state/server-instance-id",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/state/server.pid",
+      "language": "pid",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/content/visual-style-options.html",
+      "language": "html",
+      "sizeLines": 206,
+      "fileCategory": "markup"
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/state/server-instance-id",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/state/server-stopped",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/state/server.pid",
+      "language": "pid",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/globals.css",
+      "language": "css",
+      "sizeLines": 105,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "app/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/not-found.tsx",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/posts/[slug]/page.tsx",
+      "language": "typescript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/posts/page.tsx",
+      "language": "typescript",
+      "sizeLines": 188,
+      "fileCategory": "code"
+    },
+    {
+      "path": "components.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "components/theme-toggle.tsx",
+      "language": "typescript",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/card.tsx",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/input.tsx",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "content/posts/ai-assisted-coding-workflow.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/building-a-sustainable-writing-rhythm.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/designing-with-constraints.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/hello-nextjs-blog.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/keeping-project-notes-useful.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/reviewing-small-changes.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/small-feedback-loops.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts/tooling-that-stays-boring.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-23-nextjs-personal-blog.md",
+      "language": "markdown",
+      "sizeLines": 168,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-24-minimal-theme-dark-mode.md",
+      "language": "markdown",
+      "sizeLines": 517,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-nextjs-personal-blog-design.md",
+      "language": "markdown",
+      "sizeLines": 48,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-24-minimal-theme-dark-mode-design.md",
+      "language": "markdown",
+      "sizeLines": 79,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "language": "javascript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "lib/post-archive.ts",
+      "language": "typescript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "lib/posts.ts",
+      "language": "typescript",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "lib/theme.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "lib/utils.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "next-env.d.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "next.config.ts",
+      "language": "typescript",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "sizeLines": 38,
+      "fileCategory": "config"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "language": "javascript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/post-archive.test.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/posts.test.ts",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/theme.test.ts",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "sizeLines": 41,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tsconfig.tsbuildinfo",
+      "language": "tsbuildinfo",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "vitest.config.ts",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    }
+  ],
+  "totalFiles": 61,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "moderate",
+  "stats": {
+    "filesScanned": 61,
+    "byCategory": {
+      "config": 14,
+      "code": 32,
+      "markup": 3,
+      "docs": 12
+    },
+    "byLanguage": {
+      "yaml": 10,
+      "unknown": 7,
+      "html": 2,
+      "pid": 2,
+      "json": 4,
+      "css": 1,
+      "typescript": 20,
+      "markdown": 12,
+      "javascript": 2,
+      "tsbuildinfo": 1
+    }
+  }
+}

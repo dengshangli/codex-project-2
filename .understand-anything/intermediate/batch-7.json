@@ -1,0 +1,391 @@
+{
+  "nodes": [
+    {
+      "id": "file:.superpowers/brainstorm/.last-port",
+      "type": "file",
+      "name": ".last-port",
+      "summary": "项目文件 .superpowers/brainstorm/.last-port，属于 code 类别，语言标识为 unknown。",
+      "tags": [
+        "code",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/.last-port",
+      "language": "unknown",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.superpowers/brainstorm/.last-token",
+      "type": "file",
+      "name": ".last-token",
+      "summary": "项目文件 .superpowers/brainstorm/.last-token，属于 code 类别，语言标识为 unknown。",
+      "tags": [
+        "code",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/.last-token",
+      "language": "unknown",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.superpowers/brainstorm/7839-1782269267/content/visual-style-options-restarted.html",
+      "type": "file",
+      "name": "visual-style-options-restarted.html",
+      "summary": "项目文件 .superpowers/brainstorm/7839-1782269267/content/visual-style-options-restarted.html，属于 markup 类别，语言标识为 html。",
+      "tags": [
+        "html",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/7839-1782269267/content/visual-style-options-restarted.html",
+      "language": "html",
+      "complexity": "complex"
+    },
+    {
+      "id": "file:.superpowers/brainstorm/7839-1782269267/state/server-info",
+      "type": "file",
+      "name": "server-info",
+      "summary": "项目文件 .superpowers/brainstorm/7839-1782269267/state/server-info，属于 code 类别，语言标识为 unknown。",
+      "tags": [
+        "code",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/7839-1782269267/state/server-info",
+      "language": "unknown",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.superpowers/brainstorm/7839-1782269267/state/server-instance-id",
+      "type": "file",
+      "name": "server-instance-id",
+      "summary": "项目文件 .superpowers/brainstorm/7839-1782269267/state/server-instance-id，属于 code 类别，语言标识为 unknown。",
+      "tags": [
+        "code",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/7839-1782269267/state/server-instance-id",
+      "language": "unknown",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.superpowers/brainstorm/7839-1782269267/state/server.pid",
+      "type": "file",
+      "name": "server.pid",
+      "summary": "项目文件 .superpowers/brainstorm/7839-1782269267/state/server.pid，属于 code 类别，语言标识为 pid。",
+      "tags": [
+        "pid",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/7839-1782269267/state/server.pid",
+      "language": "pid",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.superpowers/brainstorm/91320-1782269132/content/visual-style-options.html",
+      "type": "file",
+      "name": "visual-style-options.html",
+      "summary": "项目文件 .superpowers/brainstorm/91320-1782269132/content/visual-style-options.html，属于 markup 类别，语言标识为 html。",
+      "tags": [
+        "html",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/91320-1782269132/content/visual-style-options.html",
+      "language": "html",
+      "complexity": "complex"
+    },
+    {
+      "id": "file:.superpowers/brainstorm/91320-1782269132/state/server-instance-id",
+      "type": "file",
+      "name": "server-instance-id",
+      "summary": "项目文件 .superpowers/brainstorm/91320-1782269132/state/server-instance-id，属于 code 类别，语言标识为 unknown。",
+      "tags": [
+        "code",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/91320-1782269132/state/server-instance-id",
+      "language": "unknown",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.superpowers/brainstorm/91320-1782269132/state/server-stopped",
+      "type": "file",
+      "name": "server-stopped",
+      "summary": "项目文件 .superpowers/brainstorm/91320-1782269132/state/server-stopped，属于 code 类别，语言标识为 unknown。",
+      "tags": [
+        "code",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/91320-1782269132/state/server-stopped",
+      "language": "unknown",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.superpowers/brainstorm/91320-1782269132/state/server.pid",
+      "type": "file",
+      "name": "server.pid",
+      "summary": "项目文件 .superpowers/brainstorm/91320-1782269132/state/server.pid，属于 code 类别，语言标识为 pid。",
+      "tags": [
+        "pid",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".superpowers/brainstorm/91320-1782269132/state/server.pid",
+      "language": "pid",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "summary": "项目文件 .understand-anything/.understandignore，属于 code 类别，语言标识为 unknown。",
+      "tags": [
+        "code",
+        "project-file",
+        "asset"
+      ],
+      "filePath": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "summary": "配置文件 config.json，用于项目工具链或运行时行为。",
+      "tags": [
+        "config",
+        "json",
+        "project-file"
+      ],
+      "filePath": ".understand-anything/config.json",
+      "language": "json",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/globals.css",
+      "type": "file",
+      "name": "globals.css",
+      "summary": "定义全局样式、Tailwind token 以及浅色/暗色主题变量。",
+      "tags": [
+        "css",
+        "next-app",
+        "project-file"
+      ],
+      "filePath": "app/globals.css",
+      "language": "css",
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-06-23-nextjs-personal-blog.md",
+      "type": "document",
+      "name": "2026-06-23-nextjs-personal-blog.md",
+      "summary": "记录项目设计、计划或实现说明，为后续开发提供上下文。",
+      "tags": [
+        "document",
+        "markdown",
+        "project-file"
+      ],
+      "filePath": "docs/superpowers/plans/2026-06-23-nextjs-personal-blog.md",
+      "language": "markdown",
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-06-24-minimal-theme-dark-mode.md",
+      "type": "document",
+      "name": "2026-06-24-minimal-theme-dark-mode.md",
+      "summary": "记录项目设计、计划或实现说明，为后续开发提供上下文。",
+      "tags": [
+        "document",
+        "markdown",
+        "project-file"
+      ],
+      "filePath": "docs/superpowers/plans/2026-06-24-minimal-theme-dark-mode.md",
+      "language": "markdown",
+      "complexity": "complex"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-nextjs-personal-blog-design.md",
+      "type": "document",
+      "name": "2026-06-23-nextjs-personal-blog-design.md",
+      "summary": "记录项目设计、计划或实现说明，为后续开发提供上下文。",
+      "tags": [
+        "document",
+        "markdown",
+        "project-file"
+      ],
+      "filePath": "docs/superpowers/specs/2026-06-23-nextjs-personal-blog-design.md",
+      "language": "markdown",
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-24-minimal-theme-dark-mode-design.md",
+      "type": "document",
+      "name": "2026-06-24-minimal-theme-dark-mode-design.md",
+      "summary": "记录项目设计、计划或实现说明，为后续开发提供上下文。",
+      "tags": [
+        "document",
+        "markdown",
+        "project-file"
+      ],
+      "filePath": "docs/superpowers/specs/2026-06-24-minimal-theme-dark-mode-design.md",
+      "language": "markdown",
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:eslint.config.mjs",
+      "type": "file",
+      "name": "eslint.config.mjs",
+      "summary": "项目文件 eslint.config.mjs，属于 code 类别，语言标识为 javascript。",
+      "tags": [
+        "javascript",
+        "project-file",
+        "asset"
+      ],
+      "filePath": "eslint.config.mjs",
+      "language": "javascript",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:next-env.d.ts",
+      "type": "file",
+      "name": "next-env.d.ts",
+      "summary": "项目文件 next-env.d.ts，属于 code 类别，语言标识为 typescript。",
+      "tags": [
+        "typescript",
+        "project-file",
+        "asset"
+      ],
+      "filePath": "next-env.d.ts",
+      "language": "typescript",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:next.config.ts",
+      "type": "file",
+      "name": "next.config.ts",
+      "summary": "项目文件 next.config.ts，属于 code 类别，语言标识为 typescript。",
+      "tags": [
+        "typescript",
+        "project-file",
+        "asset"
+      ],
+      "filePath": "next.config.ts",
+      "language": "typescript",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:postcss.config.mjs",
+      "type": "file",
+      "name": "postcss.config.mjs",
+      "summary": "项目文件 postcss.config.mjs，属于 code 类别，语言标识为 javascript。",
+      "tags": [
+        "javascript",
+        "project-file",
+        "asset"
+      ],
+      "filePath": "postcss.config.mjs",
+      "language": "javascript",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tsconfig.tsbuildinfo",
+      "type": "file",
+      "name": "tsconfig.tsbuildinfo",
+      "summary": "项目文件 tsconfig.tsbuildinfo，属于 code 类别，语言标识为 tsbuildinfo。",
+      "tags": [
+        "tsbuildinfo",
+        "project-file",
+        "asset"
+      ],
+      "filePath": "tsconfig.tsbuildinfo",
+      "language": "tsbuildinfo",
+      "complexity": "simple"
+    },
+    {
+      "id": "file:vitest.config.ts",
+      "type": "file",
+      "name": "vitest.config.ts",
+      "summary": "项目文件 vitest.config.ts，属于 code 类别，语言标识为 typescript。",
+      "tags": [
+        "typescript",
+        "project-file",
+        "asset"
+      ],
+      "filePath": "vitest.config.ts",
+      "language": "typescript",
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:docs/superpowers/plans/2026-06-24-minimal-theme-dark-mode.md",
+      "target": "file:app/globals.css",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-06-24-minimal-theme-dark-mode.md",
+      "target": "file:components/theme-toggle.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-06-24-minimal-theme-dark-mode.md",
+      "target": "file:app/layout.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/specs/2026-06-23-nextjs-personal-blog-design.md",
+      "target": "file:app/globals.css",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/specs/2026-06-23-nextjs-personal-blog-design.md",
+      "target": "file:components/theme-toggle.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/specs/2026-06-23-nextjs-personal-blog-design.md",
+      "target": "file:app/layout.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/specs/2026-06-24-minimal-theme-dark-mode-design.md",
+      "target": "file:app/globals.css",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/specs/2026-06-24-minimal-theme-dark-mode-design.md",
+      "target": "file:components/theme-toggle.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/specs/2026-06-24-minimal-theme-dark-mode-design.md",
+      "target": "file:app/layout.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

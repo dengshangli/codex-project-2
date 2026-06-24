@@ -1,0 +1,436 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 23,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".superpowers/brainstorm/.last-port",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".superpowers/brainstorm/.last-token",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/content/visual-style-options-restarted.html",
+      "language": "html",
+      "fileCategory": "markup",
+      "totalLines": 206,
+      "nonEmptyLines": 199,
+      "metrics": {}
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/state/server-info",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/state/server-instance-id",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".superpowers/brainstorm/7839-1782269267/state/server.pid",
+      "language": "pid",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/content/visual-style-options.html",
+      "language": "html",
+      "fileCategory": "markup",
+      "totalLines": 206,
+      "nonEmptyLines": 199,
+      "metrics": {}
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/state/server-instance-id",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/state/server-stopped",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".superpowers/brainstorm/91320-1782269132/state/server.pid",
+      "language": "pid",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 34,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "sections": [
+        {
+          "heading": "outputLanguage",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "app/globals.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 105,
+      "nonEmptyLines": 94,
+      "metrics": {}
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-23-nextjs-personal-blog.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 168,
+      "nonEmptyLines": 115,
+      "sections": [
+        {
+          "heading": "Next.js 个人博客实施计划",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "全局约束",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "文件结构",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "任务 1：搭建工具链和内容测试",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "任务 2：实现 Markdown 内容管线",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "任务 3：构建博客路由和样式",
+          "level": 3,
+          "line": 113
+        },
+        {
+          "heading": "任务 4：验证、评审和收尾",
+          "level": 3,
+          "line": 139
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-24-minimal-theme-dark-mode.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 517,
+      "nonEmptyLines": 387,
+      "sections": [
+        {
+          "heading": "极简主题与暗黑模式实现计划",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Global Constraints",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "File Structure",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Task 1: Theme State Utilities",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Task 2: Theme Toggle Component",
+          "level": 3,
+          "line": 182
+        },
+        {
+          "heading": "Task 3: Root Layout Theme Bootstrap",
+          "level": 3,
+          "line": 252
+        },
+        {
+          "heading": "Task 4: Minimal Visual Theme Tokens",
+          "level": 3,
+          "line": 325
+        },
+        {
+          "heading": "Task 5: Manual Visual Verification",
+          "level": 3,
+          "line": 459
+        },
+        {
+          "heading": "Self-Review",
+          "level": 2,
+          "line": 513
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-nextjs-personal-blog-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 48,
+      "nonEmptyLines": 39,
+      "sections": [
+        {
+          "heading": "Next.js 个人博客设计",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "目标",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "已确认决策",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "架构",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "组件与数据流",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "错误处理",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "测试",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Superpowers 覆盖情况",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "范围边界",
+          "level": 2,
+          "line": 47
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-24-minimal-theme-dark-mode-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 79,
+      "nonEmptyLines": 54,
+      "sections": [
+        {
+          "heading": "极简主题与暗黑模式设计",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "背景",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "目标",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "非目标",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "推荐方案",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "视觉方向",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "组件与布局变化",
+          "level": 2,
+          "line": 53
+        },
+        {
+          "heading": "可访问性与体验",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "测试与验证",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "主题切换呈现",
+          "level": 2,
+          "line": 77
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "eslint.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 8,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "next-env.d.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 5,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "tsconfig.tsbuildinfo",
+      "language": "tsbuildinfo",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": "vitest.config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 node_modules/
 coverage/
 dist/
+.codegraph/
 .env*
 !.env.example
 npm-debug.log*

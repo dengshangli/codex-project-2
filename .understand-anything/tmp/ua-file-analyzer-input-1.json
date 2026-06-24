@@ -1,0 +1,82 @@
+{
+  "projectRoot": "/Users/dengshangli/Documents/codex-project-2",
+  "batchFiles": [
+    {
+      "path": "app/not-found.tsx",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/posts/[slug]/page.tsx",
+      "language": "typescript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/card.tsx",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "components/ui/input.tsx",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "lib/utils.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "app/not-found.tsx": [
+      "components/ui/button.tsx"
+    ],
+    "app/page.tsx": [
+      "components/ui/badge.tsx",
+      "components/ui/button.tsx",
+      "components/ui/card.tsx",
+      "lib/posts.ts"
+    ],
+    "app/posts/[slug]/page.tsx": [
+      "components/ui/badge.tsx",
+      "components/ui/button.tsx",
+      "lib/posts.ts"
+    ],
+    "components/ui/badge.tsx": [
+      "lib/utils.ts"
+    ],
+    "components/ui/button.tsx": [
+      "lib/utils.ts"
+    ],
+    "components/ui/card.tsx": [
+      "lib/utils.ts"
+    ],
+    "components/ui/input.tsx": [
+      "lib/utils.ts"
+    ],
+    "lib/utils.ts": []
+  }
+}
