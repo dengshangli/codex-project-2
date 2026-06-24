@@ -3,6 +3,7 @@ node_modules/
 coverage/
 dist/
 .codegraph/
+.playwright-cli/
 .env*
 !.env.example
 npm-debug.log*
