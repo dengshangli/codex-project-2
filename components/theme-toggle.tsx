@@ -107,7 +107,7 @@ function subscribe(onStoreChange: () => void): () => void {
   };
 }
 
-export function ThemeToggle(): JSX.Element {
+export function ThemeToggle() {
   const theme = useSyncExternalStore(subscribe, getBrowserSnapshot, getServerSnapshot);
 
   const nextTheme = getNextTheme(theme);
